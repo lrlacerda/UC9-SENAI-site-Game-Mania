@@ -1,0 +1,40 @@
+header { 
+
+background-color: #000000; 
+padding: 20px 0;
+
+}
+
+.menu {
+
+   text-transform: uppercase;
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 90px;
+    right: 0;
+
+}
+
+
+
+nav a {
+
+   text-decoration: none;
+   display: inline;  
+    margin: 0 0 0 15px;
+
+}
+
+
+
+body {
+   
+   background-color: white; 
+
+}
