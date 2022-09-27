@@ -1,77 +1,137 @@
+body {
+   
+  background-color: #BBBBBB; 
+
+}
+
 header { 
 
+font-family: 'Kanit', sans-serif;
 background-color: #000000; 
 padding: 30px 0;
 
-}
-
-.menu {
-
-   text-transform: uppercase;
-    color: white;
-    font-weight:bold;
-    font-size: 20px;
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-
-    position: absolute;
-    top: 90px;
-    right: 0;
 
 }
 
 
+.caixa {
+
+  position: relative;
+	width: 940px;
+	margin: 0 auto;
+  top: -200px;
+
+}
+
+nav {
+
+	position: absolute;
+	top: 100px;
+	right: 250px;
+
+}
+
+nav li {
+
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
 
 nav a {
 
-   text-decoration: none;
-   display: inline;  
-    margin: 0 0 0 15px;
+  text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+
+}
+
+.logo2 {
+
+  position: absolute;
+	top: 100px;
+	right: 0;
+  top: 0;
+  width: 250px;
+ 
+}
+
+main {
+
+  margin-top: 70px;
+}
+
+main div p {
+
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+main div h5 {
+
+  font-size: 60px;
+  font-weight: bold;
 
 }
 
 
 
-body {
-   
-   background-color: white; 
+
+
+
+
+
+
+footer {
+
+  
+  /* background-image: url(../imagens/bg.jpg); */
+  padding: 40px 0;
+  background-color: #000000;
+  margin-top: 70px;
 
 }
 
-#divBusca{
-   background-color:#E0EEEE;
-   border:solid 2px #5F9EA0;
-   border-radius:10px;
-   width:300px;
-   height:32px;
+.copyright {
 
-   position: absolute;
-    top: 125px;
-    right: 90px;
-   
- }
- 
- #txtBusca{
-   float:left;
-   background-color:transparent;
-   padding-left:5px;
-   font-size:18px;
-   border:none;
-   height:32px;
-   width:191px;
- }
- 
- #btnBusca{
-   border:none;
-   float:left;
-   height:32px;
-   border-radius:0 7px 7px 0;
-   width:70px;
-   font-weight:bold;
-   background:#5F9EA0;
- }
- 
- #divBusca img{
-   float:left;
- }
+  font-size: 25px;
+  color: white;
+  margin: 20px 0 0;
+  text-align: center;
+
+}
+
+.mapa {
+
+  padding: 1em 0;
+  background: linear-gradient(#FEFEFE, #888888); /*pode ser colocada a inclinação também das cores e a porcentagem que queremos das cores*/
+
+}
+
+.mapa-conteudo {
+
+  width: 940px;
+  margin: 0 auto;
+
+}
+
+.mapa p {
+
+  margin: 0 0 1em;
+  text-align: center;
+  font-size: 1em;
+
+}
+
+  .mapa h3 {
+
+    margin: 0 0 1em;
+    text-align: center;
+    font-size: 1em;
+
+  }
+
+
