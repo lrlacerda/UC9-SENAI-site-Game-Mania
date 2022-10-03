@@ -220,94 +220,104 @@ td, th {
     }
   
 
-  .rodape {
-      padding: 30px 0;
-      display: flex;
-      justify-content: space-between;
-  
+    .copyright {
+
+      font-size: 25px;
       color: white;
-  }
-  
-  .links-footer {
-      width: 30%;
-      display: flex;
-      justify-content: space-between;
-  }
-  
-  .links-footer h2 {
-      font-family: 'Titillium Web';
-      font-size: 24px;
-  }
-  
-  .links-footer a {
-      font-family: 'Titillium Web';
-      font-size: 14px;
-      color: white;
-      text-decoration: none;
-  }
-  
-  .links-footer a:hover {
-      color: #0d6efd;
-  }
-  
-  .sociais {
-      width: 31%;
-  }
-  
-  .sociais p {
-      font-family: 'Titillium Web';    
-  }
-  
-  .sociais form {
-      width: 100%;
-      display: flex; 
-      justify-content: space-between;
-      margin-bottom: 10px;
-  }
-  
-  .sociais input[type="email"]{
-      height: 37px;
-      width: 65%;  
-      border-radius: 0px; 
-      border-style: none; 
-      text-indent: 5px;
-  }
-  
-  .sociais input[type="email"]::placeholder {
-      color: #B8B3B3;
-      font-weight: bold;
-  }
-  
-  .sociais button{
-      width: 35%;
-      color: white;
-      background-color: #001F70;
-      border: none;
-      font-family: 'Titillium Web';
-      font-weight: 600;
-  }
-  
-  .siga-nos {
-  
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 0.8em;
-  
-  }
-  
-  .siga-nos h2 {
-  
-      font-family: 'Titillium Web';
-      font-size: 23px;
-  
-  }
-  
-  .siga-nos img {
-  
-   width: 35px;
-   height: 35px;
-   
-  }
+      margin: 20px 0 0;
+      text-align: center;
+    
+    }
+    
+    
+      .rodape {
+    
+        padding: 35px 0;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    
+    }
+    
+    .links-footer {
+    
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .links-footer a {
+    
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Kanit', sans-serif;
+    
+    }
+    
+    .links-footer a:hover {
+    
+        color: #9fadca;
+    
+    }
+    
+    .sociais {
+    
+        width: 31%;
+    
+    }
+    
+    .sociais p {
+    
+        font-family: 'Titillium Web';    
+    
+    }
+    
+    .sociais form {
+    
+        width: 100%;
+        display: flex; 
+        justify-content: space-between;
+        margin-bottom: 10px;
+    
+    }
+    
+    .sociais input[type="email"]{
+    
+        height: 37px;
+        width: 65%;  
+        border-radius: 0px; 
+        border-style: none; 
+        text-indent: 5px;
+    
+    }
+    
+    .sociais input[type="email"]::placeholder {
+    
+        color: #B8B3B3;
+        font-weight: bold;
+    
+    }
+    
+    .sociais button{
+    
+        width: 35%;
+        color: white;
+        background-color: #514d4d;
+        border: none;
+        font-family: 'Titillium Web';
+        font-weight: 600;
+    
+    }
+    
+    .sociais button:hover {
+    
+      background: #434141;
+        cursor: pointer;
+        transform: scale(1.1);
+        color: white;
+    
+    }
   
 
